@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077FA1B0204DDC3300DCFF67 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 077FA1AF204DDC3300DCFF67 /* README.md */; };
+		07855D7A1BC4691900B7F6C1 /* CFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07855D791BC4691900B7F6C1 /* CFUtils.m */; };
+		07BE6D3A1BCA4D84002E0013 /* Tr2n.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07BE6D391BCA4D84002E0013 /* Tr2n.ttf */; };
+		07BE6D3C1BCA545A002E0013 /* TheGodfather-v2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07BE6D3B1BCA545A002E0013 /* TheGodfather-v2.ttf */; };
+		07D43C8A1BBDEE3B007C8EEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D43C891BBDEE3B007C8EEF /* main.m */; };
+		07D43C8D1BBDEE3B007C8EEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D43C8C1BBDEE3B007C8EEF /* AppDelegate.m */; };
+		07D43C901BBDEE3B007C8EEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D43C8F1BBDEE3B007C8EEF /* ViewController.m */; };
+		07D43C931BBDEE3B007C8EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D43C911BBDEE3B007C8EEF /* Main.storyboard */; };
+		07D43C951BBDEE3B007C8EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D43C941BBDEE3B007C8EEF /* Assets.xcassets */; };
+		07D43C981BBDEE3B007C8EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D43C961BBDEE3B007C8EEF /* LaunchScreen.storyboard */; };
+		07D43CA31BBDEE3B007C8EEF /* FontAtlasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D43CA21BBDEE3B007C8EEF /* FontAtlasTests.m */; };
+		07D43CAE1BBDEE3C007C8EEF /* FontAtlasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D43CAD1BBDEE3C007C8EEF /* FontAtlasUITests.m */; };
+		07D43CBC1BBDEEAE007C8EEF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D43CBB1BBDEEAE007C8EEF /* CoreText.framework */; };
+		07D43CBE1BBDEEB4007C8EEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D43CBD1BBDEEB4007C8EEF /* UIKit.framework */; };
+		07D43CC11BBDEFA5007C8EEF /* FontAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D43CC01BBDEFA5007C8EEF /* FontAtlas.m */; };
+		07D43CC31BBDF275007C8EEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D43CC21BBDF275007C8EEF /* CoreGraphics.framework */; };
+		07DABB5C1BC5EE8B00BF0208 /* autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07DABB5B1BC5EE8B00BF0208 /* autumn.jpg */; };
+		07DABB5F1BC7067E00BF0208 /* GLSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB5E1BC7067E00BF0208 /* GLSurface.m */; };
+		07DABB621BC706AC00BF0208 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DABB611BC706AC00BF0208 /* OpenGLES.framework */; };
+		07DABB641BC7074000BF0208 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DABB631BC7074000BF0208 /* CoreVideo.framework */; };
+		07DABB671BC71E8100BF0208 /* GlobalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB661BC71E8100BF0208 /* GlobalVariables.m */; };
+		07DABB6A1BC7245F00BF0208 /* TextureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB691BC7245F00BF0208 /* TextureManager.m */; };
+		07DABB6F1BC72E9700BF0208 /* GLTextureUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB6C1BC72E9700BF0208 /* GLTextureUtil.m */; };
+		07DABB701BC72E9700BF0208 /* GLCoord.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB6E1BC72E9700BF0208 /* GLCoord.m */; };
+		07DABB721BC72EF100BF0208 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DABB711BC72EF100BF0208 /* CoreImage.framework */; };
+		07DABB781BC7443D00BF0208 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB771BC7443D00BF0208 /* GLView.m */; };
+		07DABB7D1BC7B39600BF0208 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DABB7C1BC7B39600BF0208 /* GLKit.framework */; };
+		07DABB801BC893AE00BF0208 /* GLFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB7F1BC893AE00BF0208 /* GLFont.m */; };
+		07DABB831BC8EEBC00BF0208 /* TextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DABB821BC8EEBC00BF0208 /* TextLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D43C9F1BBDEE3B007C8EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D43C7D1BBDEE3B007C8EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D43C841BBDEE3B007C8EEF;
+			remoteInfo = FontAtlas;
+		};
+		07D43CAA1BBDEE3C007C8EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D43C7D1BBDEE3B007C8EEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D43C841BBDEE3B007C8EEF;
+			remoteInfo = FontAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077FA1AF204DDC3300DCFF67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07855D781BC4691900B7F6C1 /* CFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUtils.h; sourceTree = "<group>"; };
+		07855D791BC4691900B7F6C1 /* CFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUtils.m; sourceTree = "<group>"; };
+		07BE6D391BCA4D84002E0013 /* Tr2n.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tr2n.ttf; sourceTree = "<group>"; };
+		07BE6D3B1BCA545A002E0013 /* TheGodfather-v2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TheGodfather-v2.ttf"; sourceTree = "<group>"; };
+		07D43C851BBDEE3B007C8EEF /* FontAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D43C891BBDEE3B007C8EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D43C8B1BBDEE3B007C8EEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D43C8C1BBDEE3B007C8EEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D43C8E1BBDEE3B007C8EEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D43C8F1BBDEE3B007C8EEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07D43C921BBDEE3B007C8EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D43C941BBDEE3B007C8EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D43C971BBDEE3B007C8EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D43C991BBDEE3B007C8EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D43C9E1BBDEE3B007C8EEF /* FontAtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D43CA21BBDEE3B007C8EEF /* FontAtlasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAtlasTests.m; sourceTree = "<group>"; };
+		07D43CA41BBDEE3B007C8EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D43CA91BBDEE3C007C8EEF /* FontAtlasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAtlasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D43CAD1BBDEE3C007C8EEF /* FontAtlasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAtlasUITests.m; sourceTree = "<group>"; };
+		07D43CAF1BBDEE3C007C8EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D43CBB1BBDEEAE007C8EEF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		07D43CBD1BBDEEB4007C8EEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07D43CBF1BBDEFA5007C8EEF /* FontAtlas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAtlas.h; sourceTree = "<group>"; };
+		07D43CC01BBDEFA5007C8EEF /* FontAtlas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontAtlas.m; sourceTree = "<group>"; };
+		07D43CC21BBDF275007C8EEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07DABB5B1BC5EE8B00BF0208 /* autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autumn.jpg; sourceTree = "<group>"; };
+		07DABB5D1BC7067E00BF0208 /* GLSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSurface.h; sourceTree = "<group>"; };
+		07DABB5E1BC7067E00BF0208 /* GLSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSurface.m; sourceTree = "<group>"; };
+		07DABB611BC706AC00BF0208 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		07DABB631BC7074000BF0208 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		07DABB651BC71E8100BF0208 /* GlobalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariables.h; sourceTree = "<group>"; };
+		07DABB661BC71E8100BF0208 /* GlobalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariables.m; sourceTree = "<group>"; };
+		07DABB681BC7245F00BF0208 /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		07DABB691BC7245F00BF0208 /* TextureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureManager.m; sourceTree = "<group>"; };
+		07DABB6B1BC72E9700BF0208 /* GLTextureUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTextureUtil.h; sourceTree = "<group>"; };
+		07DABB6C1BC72E9700BF0208 /* GLTextureUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTextureUtil.m; sourceTree = "<group>"; };
+		07DABB6D1BC72E9700BF0208 /* GLCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCoord.h; sourceTree = "<group>"; };
+		07DABB6E1BC72E9700BF0208 /* GLCoord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCoord.m; sourceTree = "<group>"; };
+		07DABB711BC72EF100BF0208 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		07DABB761BC7443D00BF0208 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		07DABB771BC7443D00BF0208 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		07DABB7C1BC7B39600BF0208 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		07DABB7E1BC893AE00BF0208 /* GLFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFont.h; sourceTree = "<group>"; };
+		07DABB7F1BC893AE00BF0208 /* GLFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFont.m; sourceTree = "<group>"; };
+		07DABB811BC8EEBC00BF0208 /* TextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLayout.h; sourceTree = "<group>"; };
+		07DABB821BC8EEBC00BF0208 /* TextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D43C821BBDEE3B007C8EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DABB7D1BC7B39600BF0208 /* GLKit.framework in Frameworks */,
+				07DABB721BC72EF100BF0208 /* CoreImage.framework in Frameworks */,
+				07DABB641BC7074000BF0208 /* CoreVideo.framework in Frameworks */,
+				07DABB621BC706AC00BF0208 /* OpenGLES.framework in Frameworks */,
+				07D43CC31BBDF275007C8EEF /* CoreGraphics.framework in Frameworks */,
+				07D43CBE1BBDEEB4007C8EEF /* UIKit.framework in Frameworks */,
+				07D43CBC1BBDEEAE007C8EEF /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D43C9B1BBDEE3B007C8EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D43CA61BBDEE3C007C8EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D43C7C1BBDEE3B007C8EEF = {
+			isa = PBXGroup;
+			children = (
+				077FA1AF204DDC3300DCFF67 /* README.md */,
+				07DABB601BC7068F00BF0208 /* Frameworks */,
+				07D43C871BBDEE3B007C8EEF /* FontAtlas */,
+				07D43CA11BBDEE3B007C8EEF /* FontAtlasTests */,
+				07D43CAC1BBDEE3C007C8EEF /* FontAtlasUITests */,
+				07D43C861BBDEE3B007C8EEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D43C861BBDEE3B007C8EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D43C851BBDEE3B007C8EEF /* FontAtlas.app */,
+				07D43C9E1BBDEE3B007C8EEF /* FontAtlasTests.xctest */,
+				07D43CA91BBDEE3C007C8EEF /* FontAtlasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D43C871BBDEE3B007C8EEF /* FontAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				07BE6D391BCA4D84002E0013 /* Tr2n.ttf */,
+				07DABB651BC71E8100BF0208 /* GlobalVariables.h */,
+				07DABB661BC71E8100BF0208 /* GlobalVariables.m */,
+				07BE6D3B1BCA545A002E0013 /* TheGodfather-v2.ttf */,
+				07DABB5B1BC5EE8B00BF0208 /* autumn.jpg */,
+				07D43C8B1BBDEE3B007C8EEF /* AppDelegate.h */,
+				07D43C8C1BBDEE3B007C8EEF /* AppDelegate.m */,
+				07D43C8E1BBDEE3B007C8EEF /* ViewController.h */,
+				07D43C8F1BBDEE3B007C8EEF /* ViewController.m */,
+				07D43CBF1BBDEFA5007C8EEF /* FontAtlas.h */,
+				07D43CC01BBDEFA5007C8EEF /* FontAtlas.m */,
+				07855D781BC4691900B7F6C1 /* CFUtils.h */,
+				07855D791BC4691900B7F6C1 /* CFUtils.m */,
+				07DABB681BC7245F00BF0208 /* TextureManager.h */,
+				07DABB691BC7245F00BF0208 /* TextureManager.m */,
+				07DABB6B1BC72E9700BF0208 /* GLTextureUtil.h */,
+				07DABB6C1BC72E9700BF0208 /* GLTextureUtil.m */,
+				07DABB6D1BC72E9700BF0208 /* GLCoord.h */,
+				07DABB6E1BC72E9700BF0208 /* GLCoord.m */,
+				07DABB5D1BC7067E00BF0208 /* GLSurface.h */,
+				07DABB5E1BC7067E00BF0208 /* GLSurface.m */,
+				07DABB761BC7443D00BF0208 /* GLView.h */,
+				07DABB771BC7443D00BF0208 /* GLView.m */,
+				07DABB7E1BC893AE00BF0208 /* GLFont.h */,
+				07DABB7F1BC893AE00BF0208 /* GLFont.m */,
+				07DABB811BC8EEBC00BF0208 /* TextLayout.h */,
+				07DABB821BC8EEBC00BF0208 /* TextLayout.m */,
+				07D43C911BBDEE3B007C8EEF /* Main.storyboard */,
+				07D43C941BBDEE3B007C8EEF /* Assets.xcassets */,
+				07D43C961BBDEE3B007C8EEF /* LaunchScreen.storyboard */,
+				07D43C991BBDEE3B007C8EEF /* Info.plist */,
+				07D43C881BBDEE3B007C8EEF /* Supporting Files */,
+			);
+			path = FontAtlas;
+			sourceTree = "<group>";
+		};
+		07D43C881BBDEE3B007C8EEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D43C891BBDEE3B007C8EEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07D43CA11BBDEE3B007C8EEF /* FontAtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D43CA21BBDEE3B007C8EEF /* FontAtlasTests.m */,
+				07D43CA41BBDEE3B007C8EEF /* Info.plist */,
+			);
+			path = FontAtlasTests;
+			sourceTree = "<group>";
+		};
+		07D43CAC1BBDEE3C007C8EEF /* FontAtlasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D43CAD1BBDEE3C007C8EEF /* FontAtlasUITests.m */,
+				07D43CAF1BBDEE3C007C8EEF /* Info.plist */,
+			);
+			path = FontAtlasUITests;
+			sourceTree = "<group>";
+		};
+		07DABB601BC7068F00BF0208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DABB7C1BC7B39600BF0208 /* GLKit.framework */,
+				07DABB711BC72EF100BF0208 /* CoreImage.framework */,
+				07DABB631BC7074000BF0208 /* CoreVideo.framework */,
+				07DABB611BC706AC00BF0208 /* OpenGLES.framework */,
+				07D43CC21BBDF275007C8EEF /* CoreGraphics.framework */,
+				07D43CBD1BBDEEB4007C8EEF /* UIKit.framework */,
+				07D43CBB1BBDEEAE007C8EEF /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D43C841BBDEE3B007C8EEF /* FontAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D43CB21BBDEE3C007C8EEF /* Build configuration list for PBXNativeTarget "FontAtlas" */;
+			buildPhases = (
+				07D43C811BBDEE3B007C8EEF /* Sources */,
+				07D43C821BBDEE3B007C8EEF /* Frameworks */,
+				07D43C831BBDEE3B007C8EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAtlas;
+			productName = FontAtlas;
+			productReference = 07D43C851BBDEE3B007C8EEF /* FontAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D43C9D1BBDEE3B007C8EEF /* FontAtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D43CB51BBDEE3C007C8EEF /* Build configuration list for PBXNativeTarget "FontAtlasTests" */;
+			buildPhases = (
+				07D43C9A1BBDEE3B007C8EEF /* Sources */,
+				07D43C9B1BBDEE3B007C8EEF /* Frameworks */,
+				07D43C9C1BBDEE3B007C8EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D43CA01BBDEE3B007C8EEF /* PBXTargetDependency */,
+			);
+			name = FontAtlasTests;
+			productName = FontAtlasTests;
+			productReference = 07D43C9E1BBDEE3B007C8EEF /* FontAtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D43CA81BBDEE3C007C8EEF /* FontAtlasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D43CB81BBDEE3C007C8EEF /* Build configuration list for PBXNativeTarget "FontAtlasUITests" */;
+			buildPhases = (
+				07D43CA51BBDEE3C007C8EEF /* Sources */,
+				07D43CA61BBDEE3C007C8EEF /* Frameworks */,
+				07D43CA71BBDEE3C007C8EEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D43CAB1BBDEE3C007C8EEF /* PBXTargetDependency */,
+			);
+			name = FontAtlasUITests;
+			productName = FontAtlasUITests;
+			productReference = 07D43CA91BBDEE3C007C8EEF /* FontAtlasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D43C7D1BBDEE3B007C8EEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Abos Labs";
+				TargetAttributes = {
+					07D43C841BBDEE3B007C8EEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5W4D6A6C6J;
+					};
+					07D43C9D1BBDEE3B007C8EEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 07D43C841BBDEE3B007C8EEF;
+					};
+					07D43CA81BBDEE3C007C8EEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 07D43C841BBDEE3B007C8EEF;
+					};
+				};
+			};
+			buildConfigurationList = 07D43C801BBDEE3B007C8EEF /* Build configuration list for PBXProject "FontAtlas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D43C7C1BBDEE3B007C8EEF;
+			productRefGroup = 07D43C861BBDEE3B007C8EEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D43C841BBDEE3B007C8EEF /* FontAtlas */,
+				07D43C9D1BBDEE3B007C8EEF /* FontAtlasTests */,
+				07D43CA81BBDEE3C007C8EEF /* FontAtlasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D43C831BBDEE3B007C8EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D43C981BBDEE3B007C8EEF /* LaunchScreen.storyboard in Resources */,
+				07BE6D3C1BCA545A002E0013 /* TheGodfather-v2.ttf in Resources */,
+				07BE6D3A1BCA4D84002E0013 /* Tr2n.ttf in Resources */,
+				077FA1B0204DDC3300DCFF67 /* README.md in Resources */,
+				07D43C951BBDEE3B007C8EEF /* Assets.xcassets in Resources */,
+				07D43C931BBDEE3B007C8EEF /* Main.storyboard in Resources */,
+				07DABB5C1BC5EE8B00BF0208 /* autumn.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D43C9C1BBDEE3B007C8EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D43CA71BBDEE3C007C8EEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D43C811BBDEE3B007C8EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DABB6F1BC72E9700BF0208 /* GLTextureUtil.m in Sources */,
+				07DABB801BC893AE00BF0208 /* GLFont.m in Sources */,
+				07D43C901BBDEE3B007C8EEF /* ViewController.m in Sources */,
+				07DABB831BC8EEBC00BF0208 /* TextLayout.m in Sources */,
+				07DABB671BC71E8100BF0208 /* GlobalVariables.m in Sources */,
+				07DABB6A1BC7245F00BF0208 /* TextureManager.m in Sources */,
+				07DABB781BC7443D00BF0208 /* GLView.m in Sources */,
+				07855D7A1BC4691900B7F6C1 /* CFUtils.m in Sources */,
+				07D43C8D1BBDEE3B007C8EEF /* AppDelegate.m in Sources */,
+				07DABB701BC72E9700BF0208 /* GLCoord.m in Sources */,
+				07DABB5F1BC7067E00BF0208 /* GLSurface.m in Sources */,
+				07D43CC11BBDEFA5007C8EEF /* FontAtlas.m in Sources */,
+				07D43C8A1BBDEE3B007C8EEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D43C9A1BBDEE3B007C8EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D43CA31BBDEE3B007C8EEF /* FontAtlasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D43CA51BBDEE3C007C8EEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D43CAE1BBDEE3C007C8EEF /* FontAtlasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D43CA01BBDEE3B007C8EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D43C841BBDEE3B007C8EEF /* FontAtlas */;
+			targetProxy = 07D43C9F1BBDEE3B007C8EEF /* PBXContainerItemProxy */;
+		};
+		07D43CAB1BBDEE3C007C8EEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D43C841BBDEE3B007C8EEF /* FontAtlas */;
+			targetProxy = 07D43CAA1BBDEE3C007C8EEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D43C911BBDEE3B007C8EEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D43C921BBDEE3B007C8EEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D43C961BBDEE3B007C8EEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D43C971BBDEE3B007C8EEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D43CB01BBDEE3C007C8EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"COCOAPODS=1",
+					"NSLOG_NEEDED_MODE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D43CB11BBDEE3C007C8EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D43CB31BBDEE3C007C8EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W4D6A6C6J;
+				INFOPLIST_FILE = FontAtlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abos-Labs.FontAtlas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07D43CB41BBDEE3C007C8EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W4D6A6C6J;
+				INFOPLIST_FILE = FontAtlas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abos-Labs.FontAtlas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07D43CB61BBDEE3C007C8EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontAtlasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abos-Labs.FontAtlasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAtlas.app/FontAtlas";
+			};
+			name = Debug;
+		};
+		07D43CB71BBDEE3C007C8EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontAtlasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abos-Labs.FontAtlasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAtlas.app/FontAtlas";
+			};
+			name = Release;
+		};
+		07D43CB91BBDEE3C007C8EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FontAtlasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abos-Labs.FontAtlasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontAtlas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07D43CBA1BBDEE3C007C8EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FontAtlasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Abos-Labs.FontAtlasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontAtlas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D43C801BBDEE3B007C8EEF /* Build configuration list for PBXProject "FontAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D43CB01BBDEE3C007C8EEF /* Debug */,
+				07D43CB11BBDEE3C007C8EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D43CB21BBDEE3C007C8EEF /* Build configuration list for PBXNativeTarget "FontAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D43CB31BBDEE3C007C8EEF /* Debug */,
+				07D43CB41BBDEE3C007C8EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D43CB51BBDEE3C007C8EEF /* Build configuration list for PBXNativeTarget "FontAtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D43CB61BBDEE3C007C8EEF /* Debug */,
+				07D43CB71BBDEE3C007C8EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D43CB81BBDEE3C007C8EEF /* Build configuration list for PBXNativeTarget "FontAtlasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D43CB91BBDEE3C007C8EEF /* Debug */,
+				07D43CBA1BBDEE3C007C8EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D43C7D1BBDEE3B007C8EEF /* Project object */;
+}
